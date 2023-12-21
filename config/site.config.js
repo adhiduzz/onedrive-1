@@ -62,4 +62,10 @@ module.exports = {
   // without timezone and replacing T with space.
   datetimeFormat: 'YYYY-MM-DD HH:mm:ss',
 
+ // These are options to visually hide some elements in the app.
+  // Notice that these elements can still be accessed by other ways.
+  // YOU SHOULD NOT RELY ON THEM TO PROTECT YOUR DATA.
+  // hideDotPassword - Hide .password files in lists.
+  // Notice that .password files can still be opened online manually with its path like other files.
+  hideDotPasswordInLists: false,
   }
